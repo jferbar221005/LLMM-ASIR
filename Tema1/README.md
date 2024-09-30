@@ -1,6 +1,6 @@
 # LLMM-ASIR
 LLMM-ASIR
-Repositorio donde se suben las actividades de Lenguajes de Marca ASIR 24/25
+Repositorio donde se suben las actividades del tema1 Lenguajes de Marca ASIR 24/25
 
 ## Tema 1 - HTML
 
