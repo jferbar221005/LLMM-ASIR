@@ -8,4 +8,4 @@ Ejercicio | Descripcion
 ----------|-----------
 [Ejercicio1](/tema1/ejercicio1.html): |página web sencilla con un encabezado h1 y un pequeño párrafo de texto de tu elección
 [Ejercicio2](/tema1/ejercicio2.xml): |documento xml que incluya información sobre un par de libros de una biblioteca.
-[Ejercicio3](/tema1/ejercicio3.svg): |prueba circulo svg
+[Ejercicio3](/tema1/ejercicio3.svg): |ejemplo de SVG: circulo
