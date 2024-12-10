@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U - SVG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SVG Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Back to Homepage">Home</a></li>
+                <li><a href="#section1" title="Learn about the <circle> tag">Circle</a></li>
+                <li><a href="#section2" title="Learn about the <rect> tag">Rectangle</a></li>
+                <li><a href="#section3" title="Learn about the <line> tag">Line</a></li>
+                <li><a href="#section4" title="Learn about the <polygon> tag">Polygon</a></li>
+                <li><a href="#section5" title="Learn about the <text> tag">Text</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>SVG Circle</h2>
+            <p>The &lt;circle&gt; tag creates a circle within the SVG canvas.</p>
+            <div class="code-box">
+                <code>
+&lt;svg width="200" height="200"&gt;<br>
+&nbsp;&nbsp;&lt;circle cx="100" cy="100" r="50" fill="blue" /&gt;<br>
+&lt;/svg&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/svg-circle-result.png" alt="SVG Circle Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/SVG/struct.html#CircleElement" title="W3C SVG Circle Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section2">
+            <h2>SVG Rectangle</h2>
+            <p>The &lt;rect&gt; tag is used to draw rectangles or squares.</p>
+            <div class="code-box">
+                <code>
+&lt;svg width="200" height="200"&gt;<br>
+&nbsp;&nbsp;&lt;rect x="50" y="50" width="100" height="50" fill="green" /&gt;<br>
+&lt;/svg&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/svg-rect-result.png" alt="SVG Rectangle Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/SVG/shapes.html#RectElement" title="W3C SVG Rect Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section3">
+            <h2>SVG Line</h2>
+            <p>The &lt;line&gt; tag creates a straight line between two points.</p>
+            <div class="code-box">
+                <code>
+&lt;svg width="200" height="200"&gt;<br>
+&nbsp;&nbsp;&lt;line x1="10" y1="10" x2="190" y2="190" stroke="red" stroke-width="2" /&gt;<br>
+&lt;/svg&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/svg-line-result.png" alt="SVG Line Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/SVG/struct.html#LineElement" title="W3C SVG Line Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section4">
+            <h2>SVG Polygon</h2>
+            <p>The &lt;polygon&gt; tag defines a closed shape consisting of connected points.</p>
+            <div class="code-box">
+                <code>
+&lt;svg width="200" height="200"&gt;<br>
+&nbsp;&nbsp;&lt;polygon points="100,10 40,198 190,78 10,78 160,198"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;fill="purple" /&gt;<br>
+&lt;/svg&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/svg-polygon-result.png" alt="SVG Polygon Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/SVG/shapes.html#PolygonElement" title="W3C SVG Polygon Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section5">
+            <h2>SVG Text</h2>
+            <p>The &lt;text&gt; tag is used to render text within an SVG canvas.</p>
+            <div class="code-box">
+                <code>
+&lt;svg width="200" height="200"&gt;<br>
+&nbsp;&nbsp;&lt;text x="50" y="100" font-family="Arial" font-size="20" fill="black"&gt;Hello SVG&lt;/text&gt;<br>
+&lt;/svg&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/svg-text-result.png" alt="SVG Text Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/SVG/text.html#TextElement" title="W3C SVG Text Section">W3C Documentation</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 IES La Marisma. All rights reserved. | <a href="pdf/SVG.pdf" title="Download PDF version">Download PDF</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web4U - HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HTML Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Back to Homepage">Home</a></li>
+                <li><a href="#section1" title="Learn about the <h1> tag">Headings</a></li>
+                <li><a href="#section2" title="Learn about the <a> tag">Links</a></li>
+                <li><a href="#section3" title="Learn about the <p> tag">Paragraph</a></li>
+                <li><a href="#section4" title="Learn about the <img> tag">Images</a></li>
+                <li><a href="#section5" title="Learn about lists">Lists</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>HTML Headings</h2>
+            <p>The &lt;h1&gt; to &lt;h6&gt; tags define headings, which are used to structure content hierarchically.</p>
+            <div class="code-box">
+                <code>
+&lt;h1&gt;Main Heading&lt;/h1&gt;<br>
+&lt;h2&gt;Subheading&lt;/h2&gt;<br>
+&lt;h3&gt;Sub-subheading&lt;/h3&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/html-headings-result.png" alt="HTML Headings Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/sections.html#the-h1-h6-elements" title="W3C HTML Headings Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section2">
+            <h2>HTML Links</h2>
+            <p>The &lt;a&gt; tag creates hyperlinks that connect pages or resources.</p>
+            <div class="code-box">
+                <code>
+&lt;a href="https://example.com"&gt;Visit Example&lt;/a&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/html-links-result.png" alt="HTML Links Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element" title="W3C HTML Links Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section3">
+            <h2>HTML Paragraph</h2>
+            <p>The &lt;p&gt; tag is used to define paragraphs in HTML, which organize text into blocks.</p>
+            <div class="code-box">
+                <code>
+&lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/html-paragraph-result.png" alt="HTML Paragraph Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/grouping-content.html#the-p-element" title="W3C HTML Paragraph Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section4">
+            <h2>HTML Images</h2>
+            <p>The &lt;img&gt; tag is used to embed images in a webpage.</p>
+            <div class="code-box">
+                <code>
+&lt;img src="image.jpg" alt="Description of image"&gt;
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/html-image-result.png" alt="HTML Images Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/embedded-content-0.html#the-img-element" title="W3C HTML Image Section">W3C Documentation</a>.</p>
+        </section>
+
+        <section id="section5">
+            <h2>HTML Lists</h2>
+            <p>HTML supports both ordered (&lt;ol&gt;) and unordered (&lt;ul&gt;) lists, as well as description lists (&lt;dl&gt;).</p>
+            <div class="code-box">
+                <code>
+&lt;!-- Unordered List --&gt;<br>
+&lt;ul&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Item 3&lt;/li&gt;<br>
+&lt;/ul&gt;<br><br>
+&lt;!-- Ordered List --&gt;<br>
+&lt;ol&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Step 1&lt;/li&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Step 2&lt;/li&gt;<br>
+&nbsp;&nbsp;&lt;li&gt;Step 3&lt;/li&gt;<br>
+&lt;/ol&gt;<br><br>
+                </code>
+            </div>
+            <p>Result:</p>
+            <img src="images/html-lists.ordered.png" alt="HTML Ordered List Example">
+            <br>
+            <img src="images/html-lists.unordered.png" alt="HTML Unordered List Example">
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/grouping-content.html#the-ul-element" title="W3C HTML Lists Section">W3C Documentation - Unordered</a>.</p>
+            <p>Learn more on the <a href="https://www.w3.org/TR/html52/grouping-content.html#the-ol-element" title="W3C HTML Lists Section">W3C Documentation - Ordered </a>.</p>
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 IES La Marisma. All rights reserved. | <a href="pdf/HTML.pdf" title="Download PDF version">Download PDF</a></p>
+    </footer>
+</body>
+</html>
