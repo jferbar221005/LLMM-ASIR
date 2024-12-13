@@ -10,11 +10,9 @@ Ejercicio | Descripcion
 [Ejercicio2](/tema1/ejercicio2.html): |Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
 [Ejercicio3](/tema1/ejercicio3.html): |Usa el texto mostrado y dale el formato siguiendo las indicaciones:
 [Ejercicio4](/tema1/ejercicio4.html): |Crea una página html que muestre el siguiente aspecto:
-[Ejercicio5](/tema1/ejercicio5.html): |Crea una página que contenga varios párrafos, con distinta alineación y con
-encabezados.
+[Ejercicio5](/tema1/ejercicio5.html): |Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
 [Ejercicio6](/tema1/ejercicio6.html): |Modifica la página anterior para incluir distintos formatos de texto.
-[Ejercicio7](/tema1/ejercicio7.html): |Cambia los atributos de la página para cambiar el fondo y color. Prueba con las
-distintas opciones. 
+[Ejercicio7](/tema1/ejercicio7.html): |Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones. 
 [Ejercicio8](/tema1/ejercicio8.html): |Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo):
 [Ejercicio9](/tema1/ejercicio9.html): |Crea un página html como la mostrada a continuación:
 [Ejercicio10](/tema1/ejercicio10.html): |Write a HTML page with the follow two levels nested list 
