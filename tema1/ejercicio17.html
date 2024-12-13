@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <style>
+        table {
+            width: 80px;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: small;
+            margin-left: 5%;
+        }
+
+        .columna-datos {
+            width: 100px;
+        }
+
+        .precio-anterior {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .precio-actual {
+            font-weight: bold;
+            color: green;
+        }
+
+    </style>
+
+    <h1>Resultado de la busqueda</h1>
+    <h2>Resultado de la busqueda</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Datos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="width: 50%;">
+            <td><img src="portatil.png" alt="Portátil" width="100"></td>
+            <td>
+                <strong>Portátil - 3 GHz - 4 GB RAM</strong><br>
+                <a href="#">Comprar</a><br>
+                <span class="precio-anterior">2.990 €</span> <span class="precio-actual">2.599 €</span>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="videocamara.png" alt="Videocámara" width="100"></td>
+            <td>
+                <strong>Videocámara - Alta definición 1080p - 60 GB</strong><br>
+                <a href="#">Comprar</a><br>
+                <span class="precio-anterior">1.099 €</span> <span class="precio-actual">999 €</span>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="tv.png" alt="Televisor" width="100"></td>
+            <td>
+                <strong>Televisor - 46" - Full HD</strong><br>
+                <a href="#">Comprar</a><br>
+                <span class="precio-anterior">1.999 €</span> <span class="precio-actual">1.799 €</span>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="movil.png" alt="Móvil" width="100"></td>
+            <td>
+                <strong>Móvil - 3G - Wi-Fi - 8 GB</strong><br>
+                <a href="#">Comprar</a><br>
+                <span class="precio-anterior">399 €</span> <span class="precio-actual">349 €</span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
