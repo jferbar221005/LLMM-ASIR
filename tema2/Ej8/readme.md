@@ -1,0 +1,2 @@
+En los ejercicios se utiliza la propiedad position: absolute para colocar elementos en posiciones exactas dentro de la página, usando valores como top, left, right y bottom. 
+Además, se emplea position: relative en el contenedor principal para que los elementos absolutamente posicionados se ubiquen con referencia a ese contenedor.

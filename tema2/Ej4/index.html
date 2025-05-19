@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ4</title>
+    <style>
+.horizontal-menu {
+  width: 100%;
+  background-color: #222;
+  overflow: hidden;
+  display: flex;
+}
+
+.horizontal-menu a {
+  color: white;
+  background-color: #222;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s;
+}
+
+.horizontal-menu a:hover, 
+.horizontal-menu a.active {
+  background-color: #333;
+  color: white;
+}
+    </style>
+</head>
+<body>
+<h1>Horizontal Menu</h1>
+
+<div class="horizontal-menu">
+  <a href="#" class="active">Home</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,2 @@
+En los ejercicios se utiliza la propiedad float para posicionar imágenes o bloques a la izquierda o derecha, permitiendo que el texto se mueva alrededor de ellos. También se aplican márgenes para separar los elementos y evitar que el contenido quede pegado. Para que ciertos elementos comiencen debajo de los flotantes, se usa la propiedad clear.
+Esto permite organizar el contenido de forma clara y atractiva, mejorando la presentación y legibilidad de la página

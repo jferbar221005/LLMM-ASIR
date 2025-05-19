@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
+}
+
+.cv-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+strong {
+    font-weight: bold;
+}
