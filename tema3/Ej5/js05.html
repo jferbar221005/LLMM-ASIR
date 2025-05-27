@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EJ5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-group">
+        <p id="myParagraph">My HTML with buttons!</p>
+        <button onclick="changeFont('Arial, sans-serif')">Arial</button>
+        <button onclick="changeFont('Courier New, monospace')">Courier New</button>
+        <button onclick="changeFont('Georgia, serif')">Georgia</button>
+    </div>
+
+    <div class="button-group">
+        <img id="myImage" src="images/image4.png" alt="Sample">
+        <button onclick="changeImage('images/image1.jpg')">Image 1</button>
+        <button onclick="changeImage('images/image2.jpg')">Image 2</button>
+        <button onclick="changeImage('images/image3.jpg')">Image 3</button>
+    </div>
+
+    
+    <div class="button-group">
+        <button onclick="showMessage('Android is the most used OS')">Message 1</button>
+        <button onclick="showMessage('Windows is the second!')">Message 2</button>
+        <button onclick="showMessage('And third is iOS')">Message 3</button>
+        <div id="messageDiv"></div>
+    </div>
+
+<script src="js05.js"></script>
+</body>
+</html>

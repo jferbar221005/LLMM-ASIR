@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ3</title>
+    <link id="theme" rel="stylesheet" href="styles1.css">
+    <style>
+        .gallery-area { display:inline-block; margin:20px; padding:20px; border:1px solid #ccc; border-radius:8px; }
+        img { height:220px; display:block; margin-bottom:10px; }
+        .style-buttons { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+<h2>Imágenes de coches</h2>
+<p>Ejemplo de JavaScript en el que cambiamos las imágenes mostradas al seleccionar una opción</p>
+
+<div class="style-buttons">
+    <button onclick="changeStyle('styles1.css')">Estilo 1</button>
+    <button onclick="changeStyle('styles2.css')">Estilo 2</button>
+</div>
+
+<div class="gallery-area">
+    <h2>Cars</h2>
+    <img id="carImage" src="ImagesCars/coche1.jpg" alt="Car">
+    <br>
+    <select onchange="changeCar(this.value)">
+        <option value="ImagesCars/coche1.jpg">Car 1</option>
+        <option value="ImagesCars/coche2.jpg">Car 2</option>
+        <option value="ImagesCars/coche3.jpg">Car 3</option>
+        <option value="ImagesCars/coche4.jpg">Car 4</option>
+        <option value="ImagesCars/coche5.jpg">Car 5</option>
+        <option value="ImagesCars/coche6.jpg">Car 6</option>
+    </select>
+</div>
+<div class="gallery-area">
+    <h2>Spiderman</h2>
+    <img id="spidermanImage" src="ImagesSpiderman/spiderman1.gif" alt="Spiderman">
+    <br>
+    <select onchange="changeSpiderman(this.value)">
+        <option value="ImagesSpiderman/spiderman1.gif">Spiderman 1</option>
+        <option value="ImagesSpiderman/spiderman2.jpg">Spiderman 2</option>
+        <option value="ImagesSpiderman/spiderman3.jpg">Spiderman 3</option>
+        <option value="ImagesSpiderman/spiderman4.jpg">Spiderman 4</option>
+        <option value="ImagesSpiderman/spiderman5.jpg">Spiderman 5</option>
+    </select>
+</div>
+
+<script src="js03.js"></script>
+</body>
+</html>

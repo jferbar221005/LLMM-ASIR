@@ -1,0 +1,20 @@
+#myParagraph {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        #myImage {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        #messageDiv {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #888;
+            min-height: 30px;
+            width: 250px;
+        }
+        .button-group {
+            margin-bottom: 25px;
+        }

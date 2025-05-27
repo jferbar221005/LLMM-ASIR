@@ -1,0 +1,17 @@
+body {
+    background: #222;
+    color: #f0f0f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.gallery-area {
+    background: #333;
+    border: 2px dashed #ff4500;
+}
+button {
+    background: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    margin: 5px;
+}

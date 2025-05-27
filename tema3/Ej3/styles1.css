@@ -1,0 +1,17 @@
+body {
+    background: #f5faff;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+.gallery-area {
+    background: #e0ecff;
+    border: 2px solid #b3cfff;
+}
+button {
+    background: #3b7ddd;
+    color: #fff;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin: 5px;
+}
