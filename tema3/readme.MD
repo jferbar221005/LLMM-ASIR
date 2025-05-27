@@ -4,7 +4,7 @@ Repositorio donde se suben las actividades del tema3 Lenguajes de Marca ASIR 24/
 
 ## Tema 3 - JavaScipt y DOM
 
-JS | Descripcion
+JavaScript | Descripcion
 ----------|-----------
 [Ejercicio1](/tema3/Ej1/js01.html): |Modify the code for: Add a button (and a function) to clear the p demo. Place the script in an external file called MyJS.js
 [Ejercicio2](/tema3/Ej2/js02.html): |Modify the code for: Add a button (and a function) which writes into the p demo when clicked. Place the script in an external file called js02.js
