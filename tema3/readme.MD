@@ -15,3 +15,10 @@ JS | Descripcion
 [Ejercicio7](/tema3/Ej7/js07.html): |Create a HTML document from scratch similar to the following:
 [Ejercicio8](/tema3/Ej8/js08.html): |Create a HTML document from scratch similar to the following:
 [Ejercicio9](/tema3/Ej9/js09.html): |Modify the following exercises so that we can convert temperature from Celsius to Fahrenheit and viceversa
+
+DOM | Descripcion
+----------|-----------
+[Ejercicio1](/tema3/DOM1/dom01.html): |Crea una página web que contenga varios párrafos. Mediante Javascript accede al DOM y muestra el contenido de dichos párrafos en un div
+[Ejercicio2](/tema3/DOM2/doms02.html): |Crea una página y mediante Javascript agrega imagen a un div
+[Ejercicio3](/tema3/DOM3/dom03.html): |Crea una página con una lista y borra los elementos de dicha lista tal como se muestra en el siguiente ejemplo:
+[Ejercicio4](/tema3/DOM4/dom04.html): |Usando la consola del navegador muestra: título, imágenes y los enlaces de una página de tu elección:
