@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+  <CD serial="B6B41B" disc-length="60:21">
+    <name>Rumours</name>
+    <artist>Fleetwood Mac</artist>
+    <year>1977</year>
+    <category>Rock/Pop</category>
+    <tracks>
+      <track>
+        <number>1</number>
+        <name>Moscow Mule</name>
+        <duration>04:05</duration>
+      </track>
+      <track>
+        <number>2</number>
+        <name>Despues de la playa</name>
+        <duration>03:50</duration>
+      </track>
+      <track>
+        <number>3</number>
+        <name>Me porto bonito</name>
+        <duration>02:58</duration>
+      </track>
+      <!-- This CD has more tracks than in this file -->
+    </tracks>
+  </CD>
+</CDList>

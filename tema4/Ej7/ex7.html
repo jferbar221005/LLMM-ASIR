@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XML Standard Questions</title>
+</head>
+<body>
+    <h1>XML Standard Questions</h1>
+    <p>Answers based on the <a href="https://www.w3.org/TR/xml/" target="_blank">XML 1.0 W3C Recommendation</a></p>
+
+    <div class="answer">
+        <h2>1. What do comments look like in XML? (Section 2.5)</h2>
+        <p>Comments in XML are enclosed with <code>&lt;!--</code> and <code>--&gt;</code>.</p>
+        <pre>&lt;!-- This is an XML comment --&gt;</pre>
+    </div>
+
+    <div class="answer">
+        <h2>2. Can an attribute be repeated in the same element? (Section 3.1)</h2>
+        <p>No, an attribute cannot be repeated in the same element.</p>
+        <p>Each attribute name must be unique within an element. The standard states: <em>"No attribute name may appear more than once in the same start-tag or empty-element tag."</em></p>
+        <pre>&lt;example attr="value" attr="another"&gt; &lt;!-- INVALID --&gt;
+&lt;example attr="value" other="another"&gt; &lt;!-- VALID --&gt;</pre>
+    </div>
+
+    <div class="answer">
+        <h2>3. Where is it stated that the element names in opening and closing tags must match?</h2>
+        <p>The requirement that element names in opening and closing tags must match is stated in the section about "Start-tags, End-tags, and Empty-element Tags" (Section 3.1).</p>
+        <p>The standard says: <em>"The Name in the end-tag MUST match the element type in the start-tag."</em></p>
+        <pre>&lt;example&gt;...&lt;/example&gt; &lt;!-- VALID --&gt;
+&lt;example&gt;...&lt;/notexample&gt; &lt;!-- INVALID --&gt;</pre>
+    </div>
+</body>
+</html>

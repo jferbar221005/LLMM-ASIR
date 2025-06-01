@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+  <sender>
+    <name>Jose Fernandez</name>
+    <address>
+      <street>13 Regadera Street</street>
+      <city>Sevilla</city>
+      <zip>12345</zip>
+      <country>Spain</country>
+    </address>
+  </sender>
+  <receiver>
+    <name>Maria Garcia</name>
+    <address>
+      <street>456 Oak Avenue</street>
+      <city>Madrid</city>
+      <zip>28001</zip>
+      <country>Spain</country>
+    </address>
+  </receiver>
+  <date>2025-05-24</date>
+  <body>
+    <paragraph>Dear Maria,</paragraph>
+    <paragraph>I hope this letter finds you well. I am writing to inform you about our upcoming project and to invite you to our next meeting scheduled for next month.</paragraph>
+    <paragraph>Looking forward to your response.</paragraph>
+    <paragraph>Sincerely,</paragraph>
+  </body>
+  <signature>Jose Fernandez</signature>
+</letter>

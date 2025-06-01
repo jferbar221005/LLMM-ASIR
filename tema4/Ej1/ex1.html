@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ1</title>
+</head>
+<body>
+    <h1>EJ1 XML SYNTAX</h1>
+
+    <div class="example">
+        <h2>1. Elemento llamado "test element" con contenido</h2>
+        <p>El elemento se llama <code>test element</code> y contiene el texto:<br>
+        <em>"This is our first element!"</em></p>
+        <pre>
+&lt;test element&gt;This is our first element!&lt;/test element&gt;
+        </pre>
+    </div>
+
+    <div class="example">
+        <h2>2. Jerarquía del elemento "book" con subelementos</h2>
+        <p>El elemento <code>book</code> contiene los subelementos <code>chapters</code> y <code>author</code>.<br>
+        El elemento <code>author</code> contiene <code>name</code> y <code>address</code>.</p>
+        <pre>
+&lt;book&gt;
+    &lt;chapters&gt;&lt;/chapters&gt;
+    &lt;author&gt;
+        &lt;name&gt;&lt;/name&gt;
+        &lt;address&gt;&lt;/address&gt;
+    &lt;/author&gt;
+&lt;/book&gt;
+        </pre>
+    </div>
+
+    <div class="example">
+        <h2>3. Elemento "entry" con dos atributos</h2>
+        <p>El elemento <code>entry</code> tiene dos atributos:<br>
+        <code>no</code> con valor "24" y <code>date</code> con valor "27.10.2004".</p>
+        <pre>
+&lt;entry no="24" date="27.10.2004"/&gt;
+        </pre>
+        <p>También puede escribirse con contenido interior (si lo tuviera):</p>
+        <pre>
+&lt;entry no="24" date="27.10.2004"&gt;&lt;/entry&gt;
+        </pre>
+    </div>
+</body>
+</html>
